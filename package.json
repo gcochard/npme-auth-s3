@@ -1,26 +1,29 @@
 {
-  "name": "npme-auth-foo",
+  "name": "npme-auth-s3",
   "version": "1.0.0",
-  "description": "An example auth-strategy for npm Enterprise.",
+  "description": "An s3-backed auth-strategy for npm Enterprise.",
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcoe/npme-auth-foo.git"
+    "url": "https://github.com/gcochard/npme-auth-s3.git"
   },
   "keywords": [
     "npme",
-    "auth"
+    "auth",
+    "aws",
+    "s3"
   ],
-  "author": "Ben Coe <ben@npmjs.com>",
+  "author": "Greg Cochard <greg@gregcochard.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bcoe/npme-auth-foo/issues"
+    "url": "https://github.com/gcochard/npme-auth-s3/issues"
   },
-  "homepage": "https://github.com/bcoe/npme-auth-foo",
+  "homepage": "https://github.com/bcoe/npme-auth-s3",
   "dependencies": {
+    "aws-sdk": "^2.1.1",
     "lodash": "^2.4.1",
     "request": "^2.47.0"
   }
